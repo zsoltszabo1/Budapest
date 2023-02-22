@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Hírlevél</title>
 
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -38,7 +39,30 @@
   
 
 </head>
+
 <body>
     
+    <div class="container">
+        <h2>Hírlevél</h2>
+        <p>Kérjük töltse ki az űrlapot  a ffeliratkozáshoz</p>
+        <form action="/action_page.php" class="was-validated">
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="text" class="form-control" id="email" placeholder="Írja be az e-mail címét" name="uname" required>
+            <div class="valid-feedback">Kész</div>
+            <div class="invalid-feedback">Kérjük töltes ki a mezőt!</div>
+          </div>
+          <div class="form-group form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember" required> Üzenetet kérek a további érdekességekről!
+              <div class="valid-feedback">Kész</div>
+              <div class="invalid-feedback">Pipálja be a folytatáshoz</div>
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Feliratkozás</button>
+        </form>
+      </div>
+
+
 </body>
 </html>
