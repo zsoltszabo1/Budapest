@@ -1,7 +1,12 @@
-.kepek{
+.div{
 
-    float: left;
-    
-    width: 300px;
-    
-    }
+float: left;
+
+width: 300px;
+
+}
+
+.carousel-caption {
+    position: absolute;
+    top:250px
+ }
